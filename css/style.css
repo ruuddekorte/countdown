@@ -9,6 +9,10 @@
         font-style: normal;
 }
 /*  ##########   REGULAR HTML    ##########   */
+body{
+    background-image: url("../image/explosive.jpg");
+    background-size: cover;
+}
 h1 {
     font-size:14px;
     margin:0 0 8px 0;
