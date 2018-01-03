@@ -1,0 +1,54 @@
+/*  ##########   FONTS    ##########   */
+@font-face {
+    font-family: 'alarm-clock';
+    src:url('../font/alarm-clock.ttf.woff') format('woff'),
+        url('../font/alarm-clock.ttf.svg#alarm-clock') format('svg'),
+        url('../font/alarm-clock.ttf.eot'),
+        url('../font/alarm-clock.ttf.eot?#iefix') format('embedded-opentype'); 
+        font-weight: normal;
+        font-style: normal;
+}
+/*  ##########   REGULAR HTML    ##########   */
+h1 {
+    font-size:14px;
+    margin:0 0 8px 0;
+}
+input {
+    padding:4px;
+}
+input[type="text"] {
+    width:50px;
+    text-align:center;
+}
+/*  ##########   CLASS ELEMENTS    ##########   */    
+.clock { 
+    font-family: 'alarm-clock';
+    font-size: 3em;
+    color: #DC143C;
+    font-weight: bold;
+}  
+/*  ##########   DIV & ELEMENTS    ##########   */
+#container {
+    padding:20px;
+    text-align:center;
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+#counter {
+    font-family:Arial,Verdana;
+    font-size:12px;
+    width:360px;
+    background-color:#f2f2f2;
+    padding:16px;
+    border:solid 10px #FF0000;
+    text-align:center;
+    margin:0 0 16px 0;
+}
+#counter span:last-child {
+color:green;}
